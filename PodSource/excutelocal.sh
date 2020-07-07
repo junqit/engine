@@ -4,10 +4,10 @@ requesetpermission(){
 
 
 
-	echo "reqeuestpermisson" + `pwd`
+	echo "reqeuestpermisson" `pwd`
 
 
 
-	exit 0
+	return 0
 }
 
