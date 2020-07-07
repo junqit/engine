@@ -7,7 +7,7 @@ requesetpermission(){
 	echo "reqeuestpermisson" `pwd`
 
 	res=$(askuserpermission)
-	if [${res} -eq 0 ]; then
+	if [ ${res} -eq 0 ]; then
 		echo "excute pod parser!!!!!!!!!!!!"
 
 	else
