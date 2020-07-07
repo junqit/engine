@@ -7,7 +7,7 @@ requesetpermission(){
 	echo "reqeuestpermisson" + `pwd`
 
 
-	return 0
 
+	exit 0
 }
 
